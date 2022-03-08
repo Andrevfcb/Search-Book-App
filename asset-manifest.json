@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Search-Book-App/static/css/main.6b4cff6b.css",
+    "main.js": "/Search-Book-App/static/js/main.f8e1ac94.js",
+    "index.html": "/Search-Book-App/index.html",
+    "main.6b4cff6b.css.map": "/Search-Book-App/static/css/main.6b4cff6b.css.map",
+    "main.f8e1ac94.js.map": "/Search-Book-App/static/js/main.f8e1ac94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b4cff6b.css",
+    "static/js/main.f8e1ac94.js"
+  ]
+}
