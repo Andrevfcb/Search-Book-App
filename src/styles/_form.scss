@@ -1,0 +1,63 @@
+form {
+    text-align: $textAlign;
+    overflow: hidden;
+    div {
+        margin: $margin - 0.5em 0;
+    }
+    label {
+        display: block;
+        margin: $margin - 0.7em;
+        font-size: $fontSize;
+        font-weight: bold;
+        color: $secondaryColor;
+    }
+    input, select {
+        padding: $padding - 0.7em $padding;
+        margin-bottom: $margin - 0.5em;
+        height: 30px;
+        border: none;
+        border-radius: 3px;
+        background: white;
+        width: 200px;
+    }
+    .default {
+        color: gray;
+    }
+    p {
+        color: $primaryColor;
+        margin: $margin 0;
+        span {
+            cursor: pointer;
+        }
+    }
+    .additives {
+        transition: 1s;
+        height: 0;
+        overflow: hidden;
+        .additives__container {
+            @include flexCenter();
+            gap: 1em;
+        }
+        .additives-date div {
+            margin: 0;
+        }
+    }
+    .active {
+        height: 200px;
+    }
+    button {
+        padding:$padding * 0.5 $padding * 2;
+        font-size: $fontSize + 0.1em;
+        background: $primaryColor;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 0 0 0.2em;
+        &:hover {
+            background: rgb(26, 122, 218);
+        }
+    }
+    .disabled {
+        cursor: not-allowed !important;
+    }
+}

@@ -1,0 +1,38 @@
+.book {
+    @include flexCenter();
+    margin: $margin;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2em;
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: $padding;
+    
+    img {
+        object-fit: cover;
+        border-radius: 2px;
+        box-shadow: 0 0 2px;
+    }
+    p {
+        font-size: $fontSize + 0.2em;
+        margin: $margin 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: $fontSize !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: $fontSize - 0.2em !important;;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    p {
+        font-size: $fontSize - 0.2em !important;;
+    }
+}

@@ -1,0 +1,138 @@
+form {
+  text-align: center;
+  overflow: hidden;
+}
+form div {
+  margin: 0.5em 0;
+}
+form label {
+  display: block;
+  margin: 0.3em;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #673ab7;
+}
+form input, form select {
+  padding: 0.3em 1em;
+  margin-bottom: 0.5em;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  background: white;
+  width: 200px;
+}
+form .default {
+  color: gray;
+}
+form p {
+  color: dodgerblue;
+  margin: 1em 0;
+}
+form p span {
+  cursor: pointer;
+}
+form .additives {
+  transition: 1s;
+  height: 0;
+  overflow: hidden;
+}
+form .additives .additives__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  gap: 1em;
+}
+form .additives .additives-date div {
+  margin: 0;
+}
+form .active {
+  height: 200px;
+}
+form button {
+  padding: 0.5em 2em;
+  font-size: 1.2em;
+  background: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 0.2em;
+}
+form button:hover {
+  background: #1a7ada;
+}
+form .disabled {
+  cursor: not-allowed !important;
+}
+
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 1em;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2em;
+  background-color: lightyellow;
+  border-radius: 5px;
+  padding: 1em;
+}
+.book img {
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 0 2px;
+}
+.book p {
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 1.1em !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 0.9em !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 0.9em !important;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: blanchedalmond;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em 0;
+  color: dodgerblue;
+}
+
+h4 {
+  text-align: center;
+}
+
+ul {
+  width: 70%;
+  margin: 2em auto;
+}
+
+@media screen and (max-width: 900px) {
+  ul {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

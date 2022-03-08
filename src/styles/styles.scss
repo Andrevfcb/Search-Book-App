@@ -1,0 +1,43 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: $textAlign;
+    align-items: $textAlign;
+    gap: 1em;
+}
+
+@import "./variables";
+@import "./form";
+@import "./book";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: blanchedalmond;
+}
+
+h1 {
+    text-align: $textAlign;
+    padding: $padding 0;
+    color: $primaryColor;
+}
+
+h4 {
+    text-align: $textAlign;
+}
+
+ul {
+    width: 70%;
+    margin: $margin + 1em auto;
+}
+
+@media screen and (max-width: 900px) {
+    ul {
+        width: 100% !important;;
+    }
+}
+
